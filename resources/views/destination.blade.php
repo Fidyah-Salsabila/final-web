@@ -30,8 +30,9 @@
         @foreach ($data as $item)
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
           <div class="destination-style1">
-            <a href="destination-details.html">
-              <img src="{{ asset('storage/'.$item->image) }}" alt="destination image" /></a>
+            <a href="/destination/show/{{ $item->id }}">
+              <img src="{{ asset('storage/'.$item->image) }}" alt="destination image" />
+            </a>
             {{-- <span class="destination-price">{{ number_format($item->price) }}</span> --}}
             <div class="destination-info">
               <h4 class="destination-name"><a href="#">{{ $item->name }}</a></h4>

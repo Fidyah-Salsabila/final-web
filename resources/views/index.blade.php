@@ -247,47 +247,20 @@
     </div>
     <div class="row destinationSlide vs-carousel" data-slide-show="3" data-arrows="false" data-lg-slide-show="2"
       data-md-slide-show="2" data-sm-slide-show="1">
+      @foreach ($destination as $item)
       <div class="col-xl-4">
         <div class="destination-style1">
-          <a href="destination-details.html"> <img src="assets/img/destinations/destinations-1-1.jpg" alt="destination image"></a>
-          <span class="destination-price">$259</span>
+          <a href="/destination/show/{{ $item->id }}">
+            <img src="{{ asset('storage/'.$item->image) }}" alt="destination image" />
+          </a>
+          <span class="destination-price"></span>
           <div class="destination-info">
-            <h4 class="destination-name"><a href="#">Thailand</a></h4>
-            <p class="destination-text">Explore Sea & Get Relax</p>
+            <h4 class="destination-name"><a href="/destination/show/{{ $item->id }}">{{ $item->name }}</a></h4>
+              <p class="destination-text">{{ $item->address }}</p>
           </div>
         </div>
       </div>
-      <div class="col-xl-4">
-        <div class="destination-style1">
-          <a href="destination-details.html"> <img src="assets/img/destinations/destinations-1-2.jpg" alt="destination image"></a>
-          <span class="destination-price">$369</span>
-          <div class="destination-info">
-            <h4 class="destination-name"><a href="#">Japan</a></h4>
-            <p class="destination-text">Explore Sea & Get Relax</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4">
-        <div class="destination-style1">
-          <a href="destination-details.html"> <img src="assets/img/destinations/destinations-1-3.jpg" alt="destination image"></a>
-          <span class="destination-price">$299</span>
-          <div class="destination-info">
-            <h4 class="destination-name"><a href="#">Spain</a></h4>
-            <p class="destination-text">Explore Sea & Get Relax</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4">
-        <div class="destination-style1">
-          <a href="destination-details.html">
-            <img src="assets/img/destinations/destinations-1-8.jpg" alt="destination image" /></a>
-          <span class="destination-price">$158</span>
-          <div class="destination-info">
-            <h4 class="destination-name"><a href="#">Mexico</a></h4>
-            <p class="destination-text">Explore World & Get Relax</p>
-          </div>
-        </div>
-      </div>
+      @endforeach
     </div>
   </div>
 </section>

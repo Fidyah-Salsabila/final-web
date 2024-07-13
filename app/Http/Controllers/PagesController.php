@@ -10,7 +10,8 @@ class PagesController extends Controller
 {
     public function index(){
         $tour = Tour::limit(5)->get();
-        return view('index', compact('tour'));
+        $destination = Destination::limit(6)->get();
+        return view('index', compact('tour', 'destination'));
     }
 
     public function destination(){
@@ -25,6 +26,10 @@ class PagesController extends Controller
 
     public function tourDetail(Tour $tour){
         return view("tour-detail", compact('tour'));
+    }
+
+    public function destinationDetail(Destination $destination){
+        return view("destination-detail", compact('destination'));
     }
 
 }

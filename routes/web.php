@@ -11,6 +11,7 @@ Route::get('/', [PagesController::class, 'index']);
 Route::get('/tour', [PagesController::class, 'tour']);
 Route::get('/tour/show/{tour}', [PagesController::class, 'tourDetail']);
 Route::get('/destination', [PagesController::class, 'destination']);
+Route::get('/destination/show/{destination}', [PagesController::class, 'destinationDetail']);
 
 Route::get('/login', [AuthController::class, 'index'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
