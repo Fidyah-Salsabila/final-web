@@ -4,7 +4,7 @@
   <!--==============================
 	  Hero area Start
 	==============================-->
-  <div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb-bg.jpg">
+  <div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/bagus2.webp">
     <div class="container z-index-common">
       <div class="breadcumb-content">
         <h1 class="breadcumb-title">Destinasi</h1>

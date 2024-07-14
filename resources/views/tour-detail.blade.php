@@ -4,7 +4,7 @@
 <!--==============================
     Hero area Start
 ==============================-->
-<div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/breadcumb/breadcumb-bg.jpg') }}">
+<div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/breadcumb/bagus.webp') }}">
     <div class="container z-index-common">
         <div class="breadcumb-content">
         <h1 class="breadcumb-title">Tour Booking</h1>
@@ -59,6 +59,10 @@
                   <tr>
                     <td class="info-heading">Harga</td>
                     <td class="info">{{ number_format($tour->price) }}</td>
+                  </tr>
+                  <tr>
+                    <td class="info-heading">Narahubung</td>
+                    <td class="info">(+62) 82339077170 (Whatsapp)</td>
                   </tr>
                 </table>
             </div>

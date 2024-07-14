@@ -111,27 +111,6 @@
   @yield('content')
 
   <footer class="footer-wrapper footer-layout1" data-bg-src="{{ asset('assets/img/bg/footer-bg.jpg') }}">
-    <div class="footer-top">
-      <div class="shadow-color"></div>
-      <div class="container">
-        <div class="cta-style1">
-          <div class="row align-items-center justify-content-between">
-            <div class="col-lg-6">
-              <div class="cta-content">
-                <h2 class="cta-title">Ready to get started?</h2>
-                <p class="cta-text">It only takes a few minutes to register your FREE Travolo account.</p>
-                <a href="sign-up.html" class="vs-btn style2">Open An Account</a>
-              </div>
-            </div>
-            <div class="col-md-5 col-sm-6">
-              <div class="cta-image d-lg-block d-none">
-                <img src="{{ asset('assets/img/newsletter.png') }}" alt="CTA Image">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="widget-area">
       <div class="container">
         <div class="row g-5 justify-content-center">
@@ -141,8 +120,7 @@
                 <div class="footer-logo">
                   <a href="index.html"><img src="{{ asset('assets/img/white-logo.svg') }}" alt="Travolo" class="logo" /></a>
                 </div>
-                <p class="footer-text">Curabitur aliquet quam id dui bandit posuere blandit. Vivamfdsus magna justo
-                  blandit aliquet.</p>
+                <p class="footer-text">Petualangan dimulai di sini. Temukan destinasi wisata alam terbaik di Indonesia bersama kami.</p>
                 <div class="social-style1">
                   <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
                   <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -159,8 +137,8 @@
       <div class="copyright-wrap">
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-auto">
-            <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> <script>document.write(new Date().getFullYear())</script> <a href="index.html">Travolo</a>.
-              All Rights Reserved By <a href="https://themeforest.net/user/vecuro">Vecuro</a></p>
+            <p class="copyright-text" style="color: #fd7e14"><i class="fal fa-copyright" style="color: #17a2b8"></i> Travolo</p>
+              {{-- All Rights Reserved By <a href="https://themeforest.net/user/vecuro">Vecuro</a></p> --}}
           </div>
           
         </div>

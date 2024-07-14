@@ -1,7 +1,5 @@
 @extends('layout')
 
-
-
 @section('content')
 <!-- ==============================
   Hero Area Start 
@@ -59,11 +57,9 @@
           <div class="title-area">
             <span class="sec-subtitle">We are Travolo</span>
             <h2 class="sec-title h1">We Are The Best For Your Travel </h2>
-            <p class="sec-text">Blienum nhaedrum torquatos nec eul, vis detraxit periculis ex, nihil is in mei. Xei an
-              periculaeuripidis, fincartem ei est. Dlienum phaed is in mei. Lei an Hericulaeuripidis, hincartem ei
-              est.</p>
+            <p class="sec-text">Temukan keajaiban dunia di setiap sudut destinasi kami! Dari pantai berpasir putih yang menakjubkan hingga puncak gunung yang mempesona, website kami adalah panduan terbaik Anda untuk merencanakan petualangan berikutnya.</p>
           </div>
-          <ul class="about-list1">
+          {{-- <ul class="about-list1">
             <li>Mei an periculaeuripidis.</li>
             <li>Lorem ipsum dolor sit am.</li>
             <li>Blienum nhaedrum tortos.</li>
@@ -71,16 +67,16 @@
             <li>torquatos nec euls vis.</li>
             <li>peric uripidis, fincartem.</li>
             <li>pericu laeuri pidis Mei sm.</li>
-          </ul>
+          </ul> --}}
           <a href="about.html" class="vs-btn style4">View More</a>
         </div>
       </div>
       <div class="col-xl-6">
         <div class="img-box3">
-          <img class="img1" src="assets/img/about/about-1-1.jpg" alt="about image">
+          <img class="img1" src="assets/img/about/1.webp" alt="about image">
           <div class="bottom-img">
-            <img class="img2" src="assets/img/about/about-1-2.jpg" alt="about image">
-            <img class="img3" src="assets/img/about/about-1-3.jpg" alt="about image">
+            <img class="img2" src="assets/img/about/3.jpeg" alt="about image">
+            <img class="img3" src="assets/img/about/2.jpg" alt="about image">
           </div>
         </div>
       </div>
@@ -157,46 +153,43 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+      <div class="col-xl-4 col-md-6 col-sm-6 col-12">
         <div class="features-style1">
           <div class="features-bg" data-bg-src="assets/img/shape/features.png"></div>
           <div class="features-image">
-            <img src="assets/img/features/features-1-1.png" alt="image">
+            <img src="assets/img/features/foto lapleng.jpg" alt="image">
           </div>
           <div class="features-content">
-            <h3 class="features-title">Special Activities</h3>
-            <p class="features-text">Curabitur aliquet qugbfam isfbd dgui posuedfdre bladscfndit vivgbagmus Bitur
-              aliquet</p>
+            <h3 class="features-title">Fidyah Nurfitrah Salsabila</h3>
+            <p class="features-text">Owner of 7 Men from South Korea or more often known by their group name, BTS.</p>
           </div>
         </div>
       </div>
-      <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+      <div class="col-xl-4 col-md-6 col-sm-6 col-12">
         <div class="features-style1">
           <div class="features-bg" data-bg-src="assets/img/shape/features.png"></div>
           <div class="features-image">
-            <img src="assets/img/features/features-1-2.png" alt="image">
+            <img src="assets/img/features/foto1.jpg" alt="image">
           </div>
           <div class="features-content">
-            <h3 class="features-title">Popper Guideline</h3>
-            <p class="features-text">Curabitur aliquet qugbfam isfbd dgui posuedfdre bladscfndit vivgbagmus Bitur
-              aliquet</p>
+            <h3 class="features-title">Khadijjah Kurniawati</h3>
+            <p class="features-text"><br>Work until u dont have to introduce urself.</p>
           </div>
         </div>
       </div>
-      <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+      <div class="col-xl-4 col-md-6 col-sm-6 col-12">
         <div class="features-style1">
           <div class="features-bg" data-bg-src="assets/img/shape/features.png"></div>
           <div class="features-image">
-            <img src="assets/img/features/features-1-3.png" alt="image">
+            <img src="assets/img/features/foto2.jpg" alt="image">
           </div>
           <div class="features-content">
-            <h3 class="features-title">Travel Arrangement </h3>
-            <p class="features-text">Curabitur aliquet qugbfam isfbd dgui posuedfdre bladscfndit vivgbagmus Bitur
-              aliquet</p>
+            <h3 class="features-title">Fairuz Zuhdi </h3>
+            <p class="features-text">Yesterday is history, tomorrow is a mystery, but today is a gift. That's why it's called the present</p>
           </div>
         </div>
       </div>
-      <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+      {{-- <div class="col-xl-3 col-md-6 col-sm-6 col-12">
         <div class="features-style1">
           <div class="features-bg" data-bg-src="assets/img/shape/features.png"></div>
           <div class="features-image">
@@ -208,7 +201,7 @@
               aliquet</p>
           </div>
         </div>
-      </div>
+      </div> --}}
     </div>
   </div>
 </section>
