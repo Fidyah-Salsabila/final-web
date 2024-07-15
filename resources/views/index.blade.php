@@ -172,7 +172,7 @@
             <img src="assets/img/features/foto1.jpg" alt="image">
           </div>
           <div class="features-content">
-            <h3 class="features-title">Khadijjah Kurniawati</h3>
+            <h3 class="features-title">Khadijah Kurniawati</h3>
             <p class="features-text"><br>Work until u dont have to introduce urself.</p>
           </div>
         </div>
